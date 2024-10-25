@@ -1,4 +1,6 @@
 package com.revature.controller;
+import com.revature.service.ChefService;
+
 
 
 /**
@@ -12,6 +14,7 @@ public class AuthenticationController {
      * A service that handles chef-related operations.
      */
 
+    @SuppressWarnings("unused")
     private ChefService chefService;
 
     /**
